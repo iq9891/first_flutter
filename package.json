@@ -5,8 +5,11 @@
   "repository": "git@github.com:iq9891/first_flutter.git",
   "author": "李梦龙 <649076408@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "flutter_lint": "flutter format ./lib"
+  },
   "gitHooks": {
-    "pre-commit": "flutter format ./lib",
+    "pre-commit": "npm run flutter_lint",
     "commit-msg": "node scripts/verify_commit.js"
   },
   "devDependencies": {
