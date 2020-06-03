@@ -19,3 +19,4 @@
 
 * [Flutter macOS 环境配置](https://blog.csdn.net/yechaoa/article/details/95389931)
 * [Flutter Windows 环境配置](https://blog.csdn.net/yechaoa/article/details/89150852)
+* [NodeJS 13+](https://github.com/nvm-sh/nvm)

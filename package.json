@@ -1,0 +1,16 @@
+{
+  "name": "first_flutter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iq9891/first_flutter.git",
+  "author": "李梦龙 <649076408@qq.com>",
+  "license": "MIT",
+  "gitHooks": {
+    "pre-commit": "flutter format ./lib",
+    "commit-msg": "node scripts/verify_commit.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "yorkie": "^2.0.0"
+  }
+}
