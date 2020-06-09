@@ -12,9 +12,7 @@ class Hello extends StatelessWidget {
         child: FlatButton(
           child: Text(
             'POP',
-            style: TextStyle(
-              color: Color(0xffff0000)
-            ),
+            style: TextStyle(color: Color(0xffff0000)),
           ),
           color: Color(0xff1996f9),
           onPressed: () {
